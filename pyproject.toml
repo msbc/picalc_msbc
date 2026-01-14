@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "Matt Coleman", email = "msbc@princeton.edu" }]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = ["numpy>=2.4.1", "scipy>=1.17"]
 
 [project.scripts]
 picalc-msbc = "picalc_msbc:main"
