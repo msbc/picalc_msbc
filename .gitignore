@@ -69,3 +69,8 @@ doc/doxy*
 
 # pyenv python version file
 .python-version
+*egg-info/
+__pycache__/
+
+# uv
+uv.lock
