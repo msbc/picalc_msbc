@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "Matt Coleman", email = "msbc@princeton.edu" }]
 requires-python = ">=3.13"
-dependencies = ["numpy>=2.4.1", "scipy>=1.17"]
+dependencies = ["numpy>=2.3", "scipy>=1.10"]
 
 [project.scripts]
 picalc-msbc = "picalc_msbc:main"
@@ -13,3 +13,11 @@ picalc-msbc = "picalc_msbc:main"
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=9",
+]
+docs = [
+    "sphinx>=9.1.0",
+]
